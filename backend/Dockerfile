@@ -1,4 +1,4 @@
-FROM nginx:20
+FROM nginx:latest
 EXPOSE 8080
 RUN mkdir /opt/server
 WORKDIR /opt/server
